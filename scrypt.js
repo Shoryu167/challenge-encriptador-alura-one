@@ -3,7 +3,7 @@ const texto_de_salida = document.querySelector(".texto_de_salida");
 
 
 function restringir_caracteres(textarea) {
-  const regex = /[^a-z ]/g;
+  const regex = /[^a-zñ ]/g;
   textarea.value = textarea.value.replace(regex, '');
 }
 
