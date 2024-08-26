@@ -1,0 +1,225 @@
+.header{
+        background-color: lightgreen;
+        color: blue;
+        font-size: 3rem;;
+  }
+  
+.contenido {
+        background-color: cadetblue;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh; 
+        padding: 20px;
+  }
+  
+.texto_de_entrada {
+        width: 40%;
+        height: 50%;
+        resize: none;
+        margin: 3rem;
+        padding: 10px;
+        border: 10px solid #ccc;
+        background-color: lightblue;
+        font-family: 'Times New Roman', Times, serif;
+        color: darkslateblue;
+        font-weight: 400;
+        font-size: 2rem;
+        
+        
+  }
+  
+.texto_de_salida {
+        width: 40%;
+        height: 50%;
+        resize: none;
+        margin: 3rem;
+        padding: 10px;
+        border: 10px solid #ccc;
+        background-color: lightblue;
+        font-family: 'Times New Roman', Times, serif;
+        color: darkslateblue;
+        font-weight: 400;
+        font-size: 2rem;
+        text-transform: lowercase;
+  }
+  
+  
+.boton{
+        background-color: grey;
+        border: solid 2px;
+        border-radius: 5px;
+        padding: 1rem;
+        resize: none;
+        font-size: 2rem;
+        
+    }
+    
+.botones__interactivos{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        gap: 24px;
+        height: 25%;
+        width: 20%;
+        display: flex;
+        justify-content: space-between;
+        resize: none;
+    }
+  
+.footer{
+        background-color: lightgreen;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #0A3871;
+        font-weight: bold;
+        margin: 0%;
+        gap: 5px;
+        width: 100%;
+        font-family: 'inter', sans-serif;
+        font-size: 1.5rem;
+        text-align: start;
+        
+    }
+
+.info{
+    color: darkred;
+    text-decoration-line: underline;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+@media (max-width: 1250px){
+    .contenido {
+        background-color: cadetblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh; 
+        padding: 20px;
+    }
+
+    .texto_de_entrada {
+        width: 60%;
+        height: 30%;
+        resize: none;
+        margin: 3rem;
+        padding: 10px;
+        border: 10px solid #ccc;
+        background-color: lightblue;
+        font-family: 'Times New Roman', Times, serif;
+        color: darkslateblue;
+        font-weight: 400;
+        font-size: 2rem;
+     }
+  
+    .texto_de_salida {
+        width: 60%;
+        height: 30%;
+        resize: none;
+        margin: 3rem;
+        padding: 10px;
+        border: 10px solid #ccc;
+        background-color: lightblue;
+        font-family: 'Times New Roman', Times, serif;
+        color: darkslateblue;
+        font-weight: 400;
+        font-size: 2rem;
+    }
+
+    .boton{
+        background-color: grey;
+        border: solid 2px;
+        border-radius: 5px;
+        padding: 1rem;
+        resize: none;
+        font-size: 2rem;
+    
+    }
+
+    .botones__interactivos{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        gap: 24px;
+        height: 25%;
+        width: 20%;
+        display: flex;
+        justify-content: space-between;
+        resize: none;
+    }
+
+}
+
+@media (max-width: 420px){
+    .contenido {
+        background-color: cadetblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh; 
+        padding: 20px;
+    }
+
+    .texto_de_entrada {
+        width: 60%;
+        height: 30%;
+        resize: none;
+        margin: 1rem;
+        padding: 10px;
+        border: 10px solid #ccc;
+        background-color: lightblue;
+        font-family: 'Times New Roman', Times, serif;
+        color: darkslateblue;
+        font-weight: 400;
+        font-size: 1.5rem;
+     }
+  
+    .texto_de_salida {
+        width: 60%;
+        height: 30%;
+        resize: none;
+        margin: 1rem;
+        padding: 10px;
+        border: 10px solid #ccc;
+        background-color: lightblue;
+        font-family: 'Times New Roman', Times, serif;
+        color: darkslateblue;
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+
+    .boton{
+        background-color: grey;
+        border: solid 2px;
+        border-radius: 5px;
+        padding: 1rem;
+        resize: none;
+        font-size: 1.6rem;
+    
+    }
+
+    .info{
+        font-size: 1rem;
+        
+    }
+    .botones__interactivos{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        gap: 5px;
+        height: 25%;
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+        resize: none;
+    }
+
+    .footer{
+        font-size: 1rem;
+    }
+}

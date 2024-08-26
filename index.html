@@ -1,0 +1,30 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">Mi primer encriptador</header>
+    <main>
+        <div class="contenido">           
+              
+            <textarea class="texto_de_entrada" cols="20" rows="10" placeholder="Ingrese su texto aqui..." oninput="restringir_caracteres(this)"></textarea>  
+            <div class="botones__interactivos">
+                  <button class="boton" id="encriptar" onclick="boton_encriptar()">Cifrar</button>
+                  <h4 class="info">Solo letras minusculas y sin acentos!</h4>
+                  <button class="boton" id="desencriptar" onclick="boton_desencriptar()"">Descifrar</button>     
+            </div>
+           <textarea class="texto_de_salida" cols="20" rows="10" readonly></textarea>
+        </div> 
+    </main>
+    <footer class="footer">Desarrollado por Leandro García
+        <a href="https://github.com/Shoryu167">GitHub</a> 
+    </footer>
+    <script src="scrypt.js"></script>
+</body>
+</html>
