@@ -62,7 +62,6 @@
         gap: 24px;
         height: 25%;
         width: 20%;
-        display: flex;
         justify-content: space-between;
         resize: none;
     }
@@ -147,7 +146,6 @@
         gap: 24px;
         height: 25%;
         width: 20%;
-        display: flex;
         justify-content: space-between;
         resize: none;
     }
@@ -155,6 +153,10 @@
 }
 
 @media (max-width: 420px){
+    .header{
+        font-size: 2rem;;
+  }
+
     .contenido {
         background-color: cadetblue;
         display: flex;
@@ -162,7 +164,7 @@
         justify-content: space-between;
         align-items: center;
         height: 100vh; 
-        padding: 20px;
+        padding: 10px;
     }
 
     .texto_de_entrada {
@@ -170,7 +172,7 @@
         height: 30%;
         resize: none;
         margin: 1rem;
-        padding: 10px;
+        padding: 5px;
         border: 10px solid #ccc;
         background-color: lightblue;
         font-family: 'Times New Roman', Times, serif;
@@ -184,7 +186,7 @@
         height: 30%;
         resize: none;
         margin: 1rem;
-        padding: 10px;
+        padding: 5px;
         border: 10px solid #ccc;
         background-color: lightblue;
         font-family: 'Times New Roman', Times, serif;
@@ -195,26 +197,25 @@
 
     .boton{
         background-color: grey;
-        border: solid 2px;
+        border: solid 1px;
         border-radius: 5px;
-        padding: 1rem;
+        padding: 0.5rem;
         resize: none;
         font-size: 1.6rem;
     
     }
 
     .info{
-        font-size: 1rem;
+        font-size: 0.7rem;
         
     }
     .botones__interactivos{
         display: flex;
         flex-direction: column;
         align-content: center;
-        gap: 5px;
-        height: 25%;
+        gap: 1px;
+        height: 20%;
         width: 40%;
-        display: flex;
         justify-content: space-between;
         resize: none;
     }
